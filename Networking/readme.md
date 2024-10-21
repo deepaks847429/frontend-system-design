@@ -13,5 +13,75 @@
 
 - websocket - WebSocket is a computer communications protocol that allows for real-time, two-way communication between a client and a server over a single connection.
 
-- Simple Mail Transfer Protocol (SMTP) is a standard communication protocol for sending and receiving emails over the internet. It's used by mail servers and other message transfer agents (MTAs) to transmit emails.
+- Simple Mail Transfer Protocol (SMTP) is a standard communication protocol for sending and receiving emails over the internet. It's used by mail servers and other message transfer agents (MTAs) to transmit emails. 
+
+
+# RESTAPI
+- Architecture 
+if frontend and backend is at same place is known as 1-tier architecture. if backend and frontend is at differnt place than it is known as 2-tier architecture. if frontend, backend, datase are at differnt place than it is known as 3-tier architecture. And the communication between these web service happen through REST API.
+
+- REST API - Representational state transfer Application programming interface.
+
+- HTTP - Hypertext Transfer protocol.
+
+
+- What is RESTAI?
+- why REST Benefits?
+  - Ease of use.
+  - stateless
+  - scalability 
+  - Flexibility
+  - Uniform Interface.
+  - Caching
+  - Sepration of concerns.
+  - Interoperability(Language agnostic)
+  - Security
+- Building Blocks(URL, http methods, headers, request, response, status code)
+  - http methods
+    - POST
+    - GET
+    - PUT / PATCH
+    - DELETE
+    - HEAD
+    - OPTIONS - security
+    - connect
+    - trace
+  - Headers
+    - Request headers
+    a-> Host (usecase - Target Host)
+    b-> Origin(usecase - origin host)
+    c-> Referer(indicate the previous web page making the request)
+    d-> user Agent(identify the clint)
+    e-> Accept(response content type)
+    f-> Accept - Language(preferred response content language)
+    g-> Accept-encoding(encoding algorithm)
+    h -> connection(keep tcp connection open)
+    i-> Authorization (send credentials)
+    j-> cookie(previous server token can be resend)
+    k- if-modified-since
+    l-> cache-control
+    - Response headers
+    a-> date(when the response is generated)
+    b-. server(provides server info)
+    c-> content-Type(type of response content)
+    d-> content-length(original body response length)
+    e-> set-cookie(informs about cookkie need to store for future response)
+    f-> content-encoding(response content-encoding)
+    g-> cache-control()
+    i-> last-modified
+    j-> Etag
+
+- status code
+ - status range- 
+ - 1XX - information related code
+ - 2xx - success code
+ - 3xx - Redirection
+ - 4xx - (any client side error)
+ - 5xx - server error
+
+- Build app
+- postman
+- Http1/2/3
+- Best practices
+- Advance 
  
