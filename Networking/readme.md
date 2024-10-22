@@ -87,11 +87,19 @@ if frontend and backend is at same place is known as 1-tier architecture. if bac
 
  # graphql
 
- - what is graphql?
+ - what is graphql? 
  - why graphql?
+   - Avoid over fetching.
+   - Avoid under fetching
+   - Better mobile performance
+   - Eficiency and precision
+   - structured and hierarchial data
  - rest vs graphql
  - Building block of graphql
  - build small graphql app
  - calling graphql
- 
+ - Tool
+ - Advance
+
+
  
