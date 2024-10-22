@@ -83,5 +83,15 @@ if frontend and backend is at same place is known as 1-tier architecture. if bac
 - postman
 - Http1/2/3
 - Best practices
-- Advance 
+- Advance  
+
+ # graphql
+
+ - what is graphql?
+ - why graphql?
+ - rest vs graphql
+ - Building block of graphql
+ - build small graphql app
+ - calling graphql
+ 
  
