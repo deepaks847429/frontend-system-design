@@ -99,7 +99,51 @@ if frontend and backend is at same place is known as 1-tier architecture. if bac
  - build small graphql app
  - calling graphql
  - Tool
- - Advance
+ - Advance 
 
+ - schema/types
+  type Country {
+    code: string
+    currency: string
+    phone: string
+    name: string
+    ID:ID
+  }
 
- 
+ - query - to get the data
+ type Query{
+  countries: [Country]
+ }
+ - Mutation - to update the data
+ type Mutation{
+  language(id:Id) : Language
+ }
+
+ - Resolver 
+ Query:{
+  countries:(parent, args, context, info)=>{
+   return //;
+  }
+ }
+
+- Example
+# Requirement
+// structured
+
+books{
+  id, 
+  title, 
+  publishedYear,
+  author
+}
+
+author{
+  id,
+  name,
+  books
+}
+
+ // list of books
+ // list of authors
+ // list of books with author details
+ // list of author with book

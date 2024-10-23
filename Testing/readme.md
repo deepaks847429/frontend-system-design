@@ -74,5 +74,11 @@ tools - OWSAP ZAP, burp suite
 
 Tools - A/B tasty
    - 
+# performance testing 
+- Performance testing is a testing measure that evaluates the speed, responsiveness and stability of a computer, network, software program or device under a workload. Organizations will run performance tests to identify performance-related bottlenecks.
 
+tools- developer console 
+
+# security testing (penetration testing)
+ - 
  
