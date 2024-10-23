@@ -67,6 +67,12 @@ tools - OWSAP ZAP, burp suite
    - e2e test cases
    - tools - puppeter, cypress, seleniumnpm i 
 
-   puppeteer - Puppeteer is a JavaScript library which provides a high-level API to control Chrome or Firefox over the DevTools Protocol or WebDriver BiDi. Puppeteer runs in the headless (no visible UI) by default. 
+   puppeteer - Puppeteer is a JavaScript library which provides a high-level API to control Chrome or Firefox over the DevTools Protocol or WebDriver BiDi. Puppeteer runs in the headless (no visible UI) by default.  
+
+# A/B testing (split testing / Bucket testing) 
+- we create two or more version of website and split the traffic on different website and we decide on basis of metric result we can decide with the feature and continue with production. This testing helps in data driven decision, and it impact business decision.
+
+Tools - A/B tasty
+   - 
 
  
