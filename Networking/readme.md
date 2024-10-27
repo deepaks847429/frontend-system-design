@@ -147,3 +147,22 @@ author{
  // list of authors
  // list of books with author details
  // list of author with book
+
+ # grpc( google remote procedure call)
+
+ - grpc
+
+ client functions -> client stub -> rpc runtime- > rpc runtime -> server stub -> server functions.
+ - rpc
+ - protobuf
+   protocol buffer - IDL(interface definition language) uses http2
+  - http2
+  - protocol serialization
+  - single long live connection
+  - Bidirectional streaming
+
+
+
+ - HandsOn
+ - rest vs grpc
+ - pros/cons
